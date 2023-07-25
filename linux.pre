@@ -1,0 +1,84 @@
+$ Linux and Unix Philosophy
+
+# Linux
+Created by Linus Torvalds while still in college.
+It was the missing piece (kernel) to the puzzle
+of Free and Open Source Operating System along
+with the GNU coreutils created by Richard Stallman.
+
+!linus.jpg
+Linus Torvalds - creator of Linux Kernel
+
+!rms.jpg
+Richard Stallman (RMS) - creator of GNU, and GPL
+
+# Unix Philosophy
+- Originated by Ken Thompson
+- Set of cultural norms and philosophical approaches to
+- minimal, modular, and SIMPLE software
+
+# Unix Philosophy
+- Do one thing and do it well
+- Write programs to work together
+- Work on text streams, it is a universal interface
+
+# Do one thing, Do it well
+Almost all of GNU and Unix coreutils are very simple
+and modular. They do one thing and do it well.
+
+# Do one thing, Do it well
+!df.png
+df - reports disk filesystem space usage
+
+# Do one thing, Do it well
+!find.png
+find - lets you FIND files in your FS
+
+# Write programs to work together
+Unix and GNU tools are simple and work on
+stdin and stdout. As such, they can easily be
+chained together by feeding output of one
+program into the input of another.
+This is called PIPE (|)
+
+# Write programs to work together
+!ps1.png
+ps - lists processes running on the system
+
+# Write programs to work together
+!ps2.png
+head - limits output to only first 10 lines
+
+# Write programs to work together
+!ps3.png
+grep - Global/REgex/Print - finds patterns in text
+
+# Write programs to work together
+!ps4.png
+awk - a powerful stream manipulation tool
+
+# Everything is file!?
+In *nix systems, everything is a text or binary file or stream
+- Files
+- Devices
+- Processes
+
+# Everything is file!?
+!file1.png
+This presentation(pdf) was made using a text file
+
+# Everything is file!?
+!file2.png
+All storage devices (and other hardware) are also files
+
+# Everything is file!?
+!file3.png
+All processes are files! Remember chrome?
+
+# Everything is file!?
+!file4.png
+even the keyboard LEDs are files!
+
+Theres much more to linux...
+
+$ Thank you
